@@ -10,6 +10,7 @@
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
+    "maxConcurrency": 2,
     "verbose": true,
     "collectCoverage": false,
     "coverageThreshold": {
